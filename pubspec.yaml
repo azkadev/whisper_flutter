@@ -12,8 +12,8 @@ dependencies:
     sdk: 'flutter'
   path: '^1.9.0'
   permission_handler: '11.3.1'
-  whisper_gpl: '^0.0.2'
-  whisper_gpl_flutter: '^0.0.1'
+  whisper_gpl: '^0.0.3'
+  whisper_gpl_flutter: '^0.0.2'
   native_extra_flutter: '^0.0.0'
 dev_dependencies:
   flutter_lints: '^5.0.0'
