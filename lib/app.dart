@@ -1,5 +1,6 @@
 // ignore_for_file: public_member_api_docs, use_build_context_synchronously
 
+import 'package:file_picker/file_picker.dart';
 import 'package:flutter/material.dart';
 import 'package:whisper_flutter/asset/generate/whisper_flutter/whisper_flutter_assets_external_samples.dart';
 import 'package:whisper_flutter/client/client.dart';
@@ -46,7 +47,7 @@ class _MyHomePageState extends State<MyHomePage> {
   void initState() {
     // TODO: implement initState
     super.initState();
-    WidgetsBinding.instance.addPostFrameCallback((_) async{
+    WidgetsBinding.instance.addPostFrameCallback((_) async {
       final whisperFlutter = WhisperFlutter.whisperFlutter;
       try {
         await whisperFlutter.initialized();
@@ -128,7 +129,19 @@ class _MyHomePageState extends State<MyHomePage> {
                       ),
                       SimpleButtonWidget(
                         title: "Transcribe Any Audio",
-                        onPressed: () {},
+                        onPressed: () async {
+                          final r = await FilePicker.platform.pickFiles(
+                            type: FileType.audio,
+                          );
+                          if (r == null) {
+                            return;
+                          }
+                          final filePath = r.files.first.path ?? "";
+                          await whisperFlutter.transcribe(
+                            filePath: filePath,
+                            context: context,
+                          );
+                        },
                       ),
                       Divider(),
                       Align(

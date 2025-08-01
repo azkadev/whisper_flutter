@@ -24,7 +24,7 @@ pada dasarnya ini support semua model whisper
 
 silahkan download itu, berupa file zip lalu ekstrak dan install
 
-- [Android / Linux]()
+- [Android / Linux](https://github.com/azkadev/whisper_flutter/releases/download/app/app.zip)
 
 ## Author
 

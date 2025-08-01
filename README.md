@@ -1,36 +1,33 @@
 # Whisper Flutter
 
-ini adalah open source applikasi minimalist hanya untuk mencontohkan penggunaan library yang saya buat [Whisper Gpl](https://github.com/azkadev/whisper_gpl).
+This is a minimalist open-source application just to demonstrate the use of the library I created [Whisper GPL](https://github.com/azkadev/whisper_gpl).
 
-percayalah walaupun banyak library whisper, library ini yang paling mudah di gunakan dan cepat, tidak perlu isolate, tidak perlu convert ffmpeg, karena secara bawaan sudah tidak perlu convert menjadi wav
+Trust me, even though there are many Whisper libraries, this one is the easiest to use and fastest. It doesn't require isolating, and it doesn't require converting ffmpeg, as it doesn't require converting to wav by default.
 
-namun perlu di ingat karena whisper gpl merupakan library contoh saja platform yang di support hanya sedikit android dan linux,
+However, keep in mind that Whisper GPL is just an example library, and only a few platforms are supported: Android and Linux.
 
-jika kamu ingin lebih maka kamu bisa check github saya pembuat whisper flutter dan whisper gpl [Github Azkadev](https://github.com/azkadev) kamu perlu mencari repository jika tidak ada berarti belum di siapkan kamu bebas menunggu / cari alternative lain
+If you want more, you can check out my GitHub, the creator of Whisper Flutter and Whisper GPL [Azkadev's GitHub](https://github.com/azkadev). You'll need to find the repository; if it's not there, it's not ready yet. You can wait or find another alternative.
 
-## Screenshot
+## Screenshots
 
-| 1                              | 2                              |
+| 1 | 2 |
 |--------------------------------|--------------------------------|
 | ![](./screenshots/android.png) | ![](./screenshots/desktop.png) |
 
-
 ## Model Support
 
-pada dasarnya ini support semua model whisper
+Basically, this supports all Whisper models.
 
+## Download Link
 
-## Link Download
+Please download it as a zip file, then extract and install it.
 
-silahkan download itu, berupa file zip lalu ekstrak dan install
-
-- [Android / Linux]()
+- [Android / Linux](https://github.com/azkadev/whisper_flutter/releases/download/app/app.zip)
 
 ## Author
 
 - https://github.com/azkadev
 
-
-## Lisensi
+## License
 
 MIT
