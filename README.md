@@ -18,6 +18,8 @@ If you want more, you can check out my GitHub, the creator of Whisper Flutter an
 
 Basically, this supports all Whisper models.
 
+https://huggingface.co/ggerganov/whisper.cpp/tree/main
+
 ## Download Link
 
 Please download it as a zip file, then extract and install it.

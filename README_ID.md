@@ -19,6 +19,7 @@ jika kamu ingin lebih maka kamu bisa check github saya pembuat whisper flutter d
 
 pada dasarnya ini support semua model whisper
 
+https://huggingface.co/ggerganov/whisper.cpp/tree/main
 
 ## Link Download
 
