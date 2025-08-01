@@ -1,0 +1,5 @@
+#!/usr/bin/env sh
+ln --force -s /opt/whisper-flutter/whisper_flutter /usr/bin/whisper-flutter-app
+chmod +x /usr/bin/whisper-flutter-app
+
+exit 0

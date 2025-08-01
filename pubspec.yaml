@@ -1,0 +1,77 @@
+name: 'whisper_flutter'
+description: 'Application example usage whisper for flutter android and linux'
+publish_to: 'none'
+version: '0.0.0'
+org: 'azkadev.whisper_gpl.whisper_flutter'
+environment:
+  sdk: '>=3.6.0 <4.0.0'
+dependencies:
+  cupertino_icons: '^1.0.8'
+  file_picker: '^9.0.2'
+  flutter:
+    sdk: 'flutter'
+  path: '^1.9.0'
+  permission_handler: '11.3.1'
+  whisper_gpl: '^0.0.2'
+  whisper_gpl_flutter: '^0.0.1'
+  native_extra_flutter: '^0.0.0'
+dev_dependencies:
+  flutter_lints: '^5.0.0'
+  flutter_test:
+    sdk: 'flutter'
+flutter:
+  uses-material-design: true
+  assets:
+    - 'assets/external/samples/'
+  fonts: []
+project:
+  type: 'opensource'
+  is_use_direct_package: true
+  is_private: true
+  developers:
+    - username: 'azkadev'
+      note: ''
+      social_medias:
+        - 'https://github.com/azkadev'
+funding: []
+packagex:
+  name: 'whisper_flutter'
+  is_without_platform_name: true
+  is_app_auto_clean_up_folder: true
+  flutter_build_arguments:
+    - '--split-per-abi'
+    - '--build-name'
+    - '0.0.0'
+    - '--build-number'
+    - '0'
+    - '--obfuscate'
+    - '--split-debug-info'
+    - 'packagex-build-debug'
+  dart_compile_exe_arguments:
+    - '--save-debugging-info=packagex-compile-debug'
+  uploads:
+    - platform_type: 'github'
+      github_username: 'archivon-apps-stores'
+      github_tag: 'release'
+      github_is_org: false
+      github_repository_name: 'whisper_flutter'
+    - platform_type: 'supabase'
+      supabase_folder_name: 'release'
+    - platform_type: 'telegram'
+      telegram_chats:
+        - chat_id: '@slebew'
+          message_thread_id: ''
+  packages:
+    - dart_target: 'whisper_flutter'
+      flutter_target: 'main'
+      dart_name: 'whisper_flutter'
+      flutter_name: 'whisper_flutter'
+      output_name: 'whisper-flutter'
+      is_edge: false
+      is_edge_debug: false
+      is_edge_build_vercel: false
+      is_edge_build_supabase: false
+      is_edge_build_cloudflare: false
+      is_edge_build_netlify: false
+      is_edge_build_web: false
+      is_build_gas: false

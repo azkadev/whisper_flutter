@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=Whisper Flutter
+GenericName=Whisper Flutter
+Version=0.0.0
+Exec=/opt/whisper-flutter/whisper_flutter %U
+Icon=/opt/whisper-flutter/data/flutter_assets/assets/icon.png
+Terminal=false
+Type=Application
+Categories=Music;Media;
+Keywords=Hello;World;Test;Application;
+StartupNotify=true
