@@ -10,6 +10,9 @@ jika kamu ingin lebih maka kamu bisa check github saya pembuat whisper flutter d
 
 ## Screenshot
 
+| 1                              | 2                              |
+|--------------------------------|--------------------------------|
+| ![](./screenshots/android.png) | ![](./screenshots/desktop.png) |
 
 
 ## Model Support
