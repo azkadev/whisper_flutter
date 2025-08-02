@@ -14,6 +14,9 @@ If you want more, you can check out my GitHub, the creator of Whisper Flutter an
 |--------------------------------|--------------------------------|
 | ![](./screenshots/android.png) | ![](./screenshots/desktop.png) |
 
+
+Demo Video: https://youtube.com/shorts/9uiCcaefQVs?feature=share
+
 ## Model Support
 
 Basically, this supports all Whisper models.

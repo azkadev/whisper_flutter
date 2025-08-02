@@ -14,6 +14,7 @@ jika kamu ingin lebih maka kamu bisa check github saya pembuat whisper flutter d
 |--------------------------------|--------------------------------|
 | ![](./screenshots/android.png) | ![](./screenshots/desktop.png) |
 
+Demo Video: https://youtube.com/shorts/9uiCcaefQVs?feature=share
 
 ## Model Support
 
