@@ -36,3 +36,11 @@ silahkan download itu, berupa file zip lalu ekstrak dan install
 ## Lisensi
 
 MIT
+
+sebenarnya ini hanyalah demo applikasi dari library yang saya buat, kebanyakan demo applikasi dari library,
+
+saya tidak keberatan jika kamu mengclaimnya, atau menjualnya, 
+
+namun jika kamu mengakui library saya keberatan.
+
+jadi pada intinya ini hanyalah demo applikasi jadi bebas mau di apakan

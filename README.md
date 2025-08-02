@@ -36,3 +36,11 @@ Please download it as a zip file, then extract and install it.
 ## License
 
 MIT
+
+This is actually just a demo application from a library I created. Most demo applications are from libraries.
+
+I don't mind if you claim it or sell it,
+
+but if you claim the library, I object.
+
+So, basically, this is just a demo application, so you're free to do whatever you want with it.
